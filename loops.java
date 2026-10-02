@@ -177,3 +177,61 @@
 // //   }
 // // }
 
+// class num{
+//   public static void main(String[] args) {
+//     int i=1;
+//     while(i<=10){
+//       System.out.println(i);
+//       i++;
+//     }
+//   }
+// }
+
+// import java.util.*;
+// class digitsnumber{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("enter the number: ");
+//     int n = sc.nextInt();
+//     //here n ko 0 ke equal ke baad n=9 ya fir koi bhi ek single digit rakh do no problem.
+//     if(n==0) n=9;
+//     int count = 0;
+//     while(n!=0){
+//       n/=10;
+//       count++;
+//     }System.out.println(count);
+//   }
+// }
+
+
+// import java.util.*;
+// class sumofdigits{
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("Enter the number: ");
+//     int n = sc.nextInt();
+//     // int count = 0;
+//     int sum = 0;
+//     while(n!=0){
+//       sum+=n%10;
+//       n/=10;
+
+//     }System.out.println(sum>0 ? sum : -sum);
+//   }
+// }
+
+
+
+import java.util.*;
+class factorial{
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter number : ");
+    int n = sc.nextInt();
+    int fact = 1;
+    for(int i=1;i<=n;i++){
+      fact*= i;
+
+    }System.out.println(fact);
+  }
+}
